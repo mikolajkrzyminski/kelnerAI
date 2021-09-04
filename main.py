@@ -23,16 +23,17 @@ drawableManager = DrawableCollection()
 
 # initialize waiter component
 waiter1 = Waiter(7, 4, 0, GridCountX - 1, 0, GridCountY - 1, CellSize, PaintOffset)
-"""
+
 waiter2 = Waiter(0, GridCountY - 1, 0, GridCountX - 1, 0, GridCountY - 1, CellSize, PaintOffset)
+"""
 waiter3 = Waiter(GridCountX - 1, 0, 0, GridCountX - 1, 0, GridCountY - 1, CellSize, PaintOffset)
 waiter4 = Waiter(GridCountX - 1, GridCountY - 1, 0, GridCountX - 1, 0, GridCountY - 1, CellSize, PaintOffset)
 """
 
 # adds waiter to drawable collection
 drawableManager.add(waiter1)
-"""
 drawableManager.add(waiter2)
+"""
 drawableManager.add(waiter3)
 drawableManager.add(waiter4)
 """

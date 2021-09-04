@@ -86,7 +86,7 @@ class GADefaults:
         self.runElitism = self.defElitism
         self.sliderElitismName = "elitarność [%]"
 
-        self.forbiddenPlaces = [(7, 4)]
+        self.forbiddenPlaces = [(7, 4), (0, 0), (14, 0), (0, 8), (14, 8)]
 
         self.buttonStartName = "generuj"
         self.buttonDefaultsName = "przywróć"
